@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LPRGI.ProgReseau.SignalRApp", "LPRGI.ProgReseau.SignalRApp\LPRGI.ProgReseau.SignalRApp.csproj", "{7867A4A3-272F-42B7-8C0A-28FA4BC06ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LPRGI.ProgReseau.SignalRApp", "LPRGI.ProgReseau.SignalRApp\LPRGI.ProgReseau.SignalRApp.csproj", "{7867A4A3-272F-42B7-8C0A-28FA4BC06ADD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CE919AD-C4AE-44B0-A013-34B214F923D9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
