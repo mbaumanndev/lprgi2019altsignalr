@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul id="messages"></ul>
+
+
+
+<input type="text" id="username" />
+<input type="text" id="message" />
+<button type="button" id="envoie">Envoyer</button>
+
+@section Scripts {
+    <script type="text/javascript"
+            src="~/lib/@@aspnet/signalr/dist/browser/signalr.min.js"></script>
+    <script type="text/javascript"
+            src="~/js/messages.js"></script>
+}
